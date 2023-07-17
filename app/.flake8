@@ -1,6 +1,7 @@
-# exclude from flake8:
+[flake8]
 exclude =
-    ./app/migrations,
-    ./app/__pycache__,
-    ./app/manage.py,
-    ./app/settings.py,
+    .git,
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py,
